@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/dash-api/dash-api
-  revision: e1e9dd6b90f978adcc5671c9e2aa3430de77abde
+  revision: 66b67b04b14731b5548457651c18bc412178de6a
   branch: master
   specs:
     dash_api (0.0.26)
