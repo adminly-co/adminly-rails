@@ -1,0 +1,24 @@
+{
+	"name": "DashAPI Rails",
+	"description": "DashAPI is a Rest API built for Postgres databases.",
+	"website": "http://www.dashapi.co",
+	"success_url": "/",
+	"addons": [],
+  "logo": "https://avatars.githubusercontent.com/u/48537274",
+  "repository": "https://github.com/dash-api/dash-rails",
+  "env": {
+		"RAILS_ENV": "production",
+    "DATABASE_URL": {
+			"description": "PostgreSQL database connection string.",      
+			"required": false
+		},		
+    "JWT_SECRET": {
+			"description": "Dash JWT secret used for authorizing JWT tokens.",
+      "generator": "secret",
+			"required": false
+		}			
+	},
+	"scripts": {
+		"postdeploy": "bundle exec rake db:migrate"
+	}
+}
