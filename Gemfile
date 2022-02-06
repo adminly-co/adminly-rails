@@ -13,7 +13,7 @@ gem 'dotenv-rails'
 gem 'kaminari'
 gem 'pundit'
 gem 'pg_search'
-gem 'dash_api', '0.0.26', git: 'https://github.com/dash-api/dash-api', branch: 'master'
+gem 'adminly', git: 'https://github.com/adminly-co/adminly', branch: 'master'
 gem 'rake'
 
 # Reduces boot times through caching; required in config/boot.rb
