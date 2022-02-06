@@ -1,7 +1,7 @@
 {
 	"name": "Adminly Rails",
 	"description": "Adminly is a Rest API built for Postgres databases.",
-	"website": "http://www.adminly.co",
+	"website": "http://www.adminly.com",
 	"success_url": "/",
 	"addons": [],
   "logo": "https://avatars.githubusercontent.com/u/48537274",
