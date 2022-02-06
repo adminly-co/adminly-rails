@@ -9,11 +9,11 @@
   "env": {
 		"RAILS_ENV": "production",
     "DATABASE_URL": {
-			"description": "PostgreSQL database connection string.",      
+			"description": "Adminly database connection string.",      
 			"required": false
 		},		
     "JWT_SECRET": {
-			"description": "Dash JWT secret used for authorizing JWT tokens.",
+			"description": "Adminly JWT secret used for authorizing JWT tokens.",
       "generator": "secret",
 			"required": false
 		}			
