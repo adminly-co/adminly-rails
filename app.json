@@ -4,7 +4,7 @@
 	"website": "http://www.adminly.com",
 	"success_url": "/",
 	"addons": [],
-  "logo": "https://avatars.githubusercontent.com/u/48537274",
+  "logo": "https://avatars.githubusercontent.com/u/93487462",
   "repository": "https://github.com/adminly-co/adminly-rails",
   "env": {
 		"RAILS_ENV": "production",
