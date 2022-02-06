@@ -1,11 +1,11 @@
 {
-	"name": "DashAPI Rails",
-	"description": "DashAPI is a Rest API built for Postgres databases.",
-	"website": "http://www.dashapi.co",
+	"name": "Adminly Rails",
+	"description": "Adminly is a Rest API built for Postgres databases.",
+	"website": "http://www.adminly.co",
 	"success_url": "/",
 	"addons": [],
   "logo": "https://avatars.githubusercontent.com/u/48537274",
-  "repository": "https://github.com/dash-api/dash-rails",
+  "repository": "https://github.com/adminly-co/adminly-rails",
   "env": {
 		"RAILS_ENV": "production",
     "DATABASE_URL": {

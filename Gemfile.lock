@@ -1,9 +1,9 @@
 GIT
-  remote: https://github.com/dash-api/dash-api
-  revision: 66b67b04b14731b5548457651c18bc412178de6a
+  remote: https://github.com/adminly-co/adminly
+  revision: 48cf3f76a6b32f8042b839ba7fcefd9f6afbde7c
   branch: master
   specs:
-    dash_api (0.0.26)
+    adminly (0.0.1)
       dotenv-rails
       jwt
       kaminari
@@ -121,7 +121,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.13.0-x86_64-linux)
       racc (~> 1.4)
-    ostruct (0.5.2)
+    ostruct (0.5.3)
     pg (1.2.3)
     pg_search (2.3.6)
       activerecord (>= 5.2)
@@ -186,8 +186,8 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  adminly (= 0.0.1)!
   bootsnap (>= 1.4.2)
-  dash_api (= 0.0.26)!
   dotenv-rails
   kaminari
   listen (~> 3.2)

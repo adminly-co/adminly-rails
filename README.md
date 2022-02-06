@@ -1,8 +1,8 @@
-# Dash Rails 
+# Adminly Rails 
 
-Dash Rails is a Ruby on Rails starter application that uses DashAPI to create an instant REST API around your PostgreSQL database. 
+Adminly Rails is a Ruby on Rails starter application that uses AdminlyAPI to create an instant REST API around your PostgreSQL database. 
 
-Dash Rails supports a flexible and expressive query format to perform CRUD operations on your database. Dash API supports:
+Adminly Rails supports a flexible and expressive query format to perform CRUD operations on your database. Adminly API supports:
 
 - Full-text search 
 - Filtering
@@ -13,4 +13,4 @@ Dash Rails supports a flexible and expressive query format to perform CRUD opera
 
 # Deploy to Heroku 
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dash-api/dash-rails)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/adminly-co/adminly-rails)
