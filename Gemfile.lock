@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/adminly-co/adminly
-  revision: f3637cf8187346bd5aff2f1b1e4c3f88dbf607cd
+  revision: ac2af54e6c9a26ad822bf3da504363ae3cdc2573
   branch: master
   specs:
     adminly (0.0.1)
