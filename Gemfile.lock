@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/adminly-co/adminly
-  revision: ac2af54e6c9a26ad822bf3da504363ae3cdc2573
+  revision: 2d382d910b17db569c28aca0f38630c8a8867c97
   branch: master
   specs:
-    adminly (0.0.1)
+    adminly (0.0.2)
       dotenv-rails
       jwt
       kaminari
@@ -186,7 +186,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  adminly (= 0.0.1)!
+  adminly (= 0.0.2)!
   bootsnap (>= 1.4.2)
   dotenv-rails
   kaminari
