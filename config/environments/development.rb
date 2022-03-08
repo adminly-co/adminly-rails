@@ -14,7 +14,7 @@ Rails.application.configure do
 
   # Show full error reports.
   config.consider_all_requests_local = true
-  config.active_record.belongs_to_required_by_default = true
+  config.active_record.belongs_to_required_by_default = false
   
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.
