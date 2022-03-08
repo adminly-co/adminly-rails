@@ -13,7 +13,7 @@ gem 'dotenv-rails'
 gem 'kaminari'
 gem 'pundit'
 gem 'pg_search'
-gem 'adminly', path: '../adminly'
+gem 'adminly', '0.0.2', git: 'https://github.com/adminly-co/adminly', branch: 'master'
 gem 'rake'
 
 # Reduces boot times through caching; required in config/boot.rb
