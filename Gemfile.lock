@@ -1,10 +1,11 @@
 GIT
   remote: https://github.com/adminly-co/adminly
-  revision: 2d382d910b17db569c28aca0f38630c8a8867c97
+  revision: 1d93903e795f99733b8d077d30469021bdacbd68
   branch: master
   specs:
-    adminly (0.0.2)
+    adminly (0.0.3)
       dotenv-rails
+      groupdate
       jwt
       kaminari
       ostruct
@@ -88,6 +89,8 @@ GEM
     ffi (1.15.5)
     globalid (1.0.0)
       activesupport (>= 5.0)
+    groupdate (6.0.1)
+      activesupport (>= 5.2)
     i18n (1.8.11)
       concurrent-ruby (~> 1.0)
     jwt (2.3.0)
@@ -186,7 +189,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  adminly (= 0.0.2)!
+  adminly (= 0.0.3)!
   bootsnap (>= 1.4.2)
   dotenv-rails
   kaminari
