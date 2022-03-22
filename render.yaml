@@ -14,8 +14,6 @@ services:
     envVars:
       - key: JWT_SECRET
         generateValue: true
-      - key: DATABASE_URL
-        generateValue: false
       - key: SECRET_KEY_BASE
         generateValue: true
     autoDeploy: true
