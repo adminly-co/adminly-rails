@@ -1,0 +1,20 @@
+services:  
+  - type: web
+    name: adminly-rails
+    env: ruby
+    plan: Free
+    repo: https://github.com/adminly-co/adminly-rails.git
+    scaling:
+      minInstances: 1
+      maxInstances: 3
+      targetMemoryPercent: 60 # optional if targetCPUPercent is set
+      targetCPUPercent: 60 # optional if targetMemory is set
+    buildCommand: bundle install
+    startCommand: "bundle exec puma -C config/puma.rb"
+    envVars:
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DATABASE_URL
+      - key: SECRET_KEY_BASE
+        generateValue: true
+    autoDeploy: true
