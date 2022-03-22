@@ -13,12 +13,8 @@ gem 'dotenv-rails'
 gem 'kaminari'
 gem 'pundit'
 gem 'pg_search'
-#gem 'adminly', '0.0.2', git: 'https://github.com/adminly-co/adminly', branch: 'master'
-gem 'adminly', '0.0.4', path: '../adminly'
+gem 'adminly', '0.0.4', git: 'https://github.com/adminly-co/adminly', branch: 'master'
 gem 'rake'
-
-# Reduces boot times through caching; required in config/boot.rb
-#gem 'bootsnap', '>= 1.4.4', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'

@@ -1,7 +1,9 @@
-PATH
-  remote: ../adminly
+GIT
+  remote: https://github.com/adminly-co/adminly
+  revision: 629aedf294a120e0de6fe09f20c59650a5a2d6b4
+  branch: master
   specs:
-    adminly (0.0.3)
+    adminly (0.0.4)
       dotenv-rails
       groupdate
       jwt
@@ -115,10 +117,16 @@ GEM
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
+    mini_portile2 (2.8.0)
     minitest (5.15.0)
     msgpack (1.4.5)
     nio4r (2.5.8)
+    nokogiri (1.13.3)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     nokogiri (1.13.3-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.3-x86_64-linux)
       racc (~> 1.4)
     ostruct (0.5.3)
     pg (1.3.3)
@@ -181,10 +189,12 @@ GEM
     zeitwerk (2.5.4)
 
 PLATFORMS
+  ruby
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
-  adminly (= 0.0.3)!
+  adminly (= 0.0.4)!
   bootsnap (>= 1.4.2)
   dotenv-rails
   kaminari
