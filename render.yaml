@@ -11,9 +11,4 @@ services:
       targetCPUPercent: 60 # optional if targetMemory is set
     buildCommand: bundle install
     startCommand: "bundle exec puma -C config/puma.rb"
-    envVars:
-      - key: JWT_SECRET
-        generateValue: true
-      - key: SECRET_KEY_BASE
-        generateValue: true
     autoDeploy: true
