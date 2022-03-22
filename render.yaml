@@ -2,7 +2,6 @@ services:
   - type: web
     name: adminly-rails
     env: ruby
-    plan: Free
     repo: https://github.com/adminly-co/adminly-rails.git
     scaling:
       minInstances: 1
