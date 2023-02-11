@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/adminly-co/adminly
-  revision: 629aedf294a120e0de6fe09f20c59650a5a2d6b4
+  revision: 5006b12609beff6923ff22e23806bcd5d19167d6
   branch: master
   specs:
-    adminly (0.0.4)
+    adminly (0.0.5)
       dotenv-rails
       groupdate
       jwt
@@ -12,7 +12,7 @@ GIT
       pg
       pg_search
       pundit
-      rails (>= 6.1.4.1)
+      rails (>= 7.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -207,7 +207,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  adminly (= 0.0.4)!
+  adminly (= 0.0.5)!
   bootsnap (>= 1.4.2)
   dotenv-rails
   kaminari

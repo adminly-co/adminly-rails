@@ -13,7 +13,7 @@ gem 'dotenv-rails'
 gem 'kaminari'
 gem 'pundit'
 gem 'pg_search'
-gem 'adminly', '0.0.4', git: 'https://github.com/adminly-co/adminly', branch: 'master'
+gem 'adminly', '0.0.5', git: 'https://github.com/adminly-co/adminly', branch: 'master'
 gem 'rake'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
