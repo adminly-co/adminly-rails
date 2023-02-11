@@ -4,4 +4,4 @@ Adminly.tap do |config|
 end 
 
 # Constantize all tables as active record models 
-Adminly::Schema.tables_to_active_record 
+#Adminly::Schema.tables_to_active_record 
